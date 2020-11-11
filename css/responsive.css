@@ -1,0 +1,380 @@
+@media (max-width: 1300px) {
+    .h-menu ul li {
+        padding-right: 30px;
+    }
+
+    .header-menu a {
+        font-size: 14px;
+    }
+    body .container-fluid {
+        padding: 0 30px;
+    }
+    .item-srv .avarta img {
+        height: 320px;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    .h-menu ul {
+        justify-content: center;
+    }
+
+    .h-menu ul li {
+        padding-right: 20px;
+    }
+
+    .header-menu a {
+        font-size: 10px;
+    }
+
+    .pt-100 {
+        padding-top: 50px;
+    }
+
+    .pb-100 {
+        padding-bottom: 50px;
+    }
+
+    .title h2 {
+        font-size: 25px;
+    }
+
+    .info-about h2 {
+        font-size: 18px;
+    }
+
+    body .container-fluid {
+        padding: 0 15px;
+    }
+
+    .info-about .col-md-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .info-about .row {
+        justify-content: center;
+    }
+
+    .info-about .col-md-3:last-child {
+        margin-bottom: 0;
+    }
+
+    .info-about .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+    .item-prj .info a {
+        font-size: 15px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-menu {
+        display: none;
+    }
+    .menu-mobile {
+        display: block !important;
+        padding: 5px 0;
+        background: #000000;
+        color: #fff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1001;
+    }
+    .menu-mobile .logo img {
+        height: 40px;
+    }
+    .pb-100 {
+        padding-bottom: 30px;
+    }
+
+    .pt-100 {
+        padding-top: 30px;
+    }
+
+    .item-ft .logo img {
+        height: 60px;
+    }
+
+    .fter-top .col-md-3 {
+        margin-bottom: 30px;
+    }
+
+    .fter-top .col-md-3:last-child {
+        margin-bottom: 0;
+    }
+
+    footer {
+        padding: 40px 0;
+    }
+
+    main {
+        margin-top: 50px !important;
+    }
+    .title h2 {
+        font-size: 20px;
+    }
+
+    .title {
+        margin-bottom: 20px;
+    }
+
+    .info-about h2 {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    body .container-fluid {
+        padding: 0 15px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .ab-left {
+        margin-bottom: 20px;
+    }
+
+    .info-about .avarta {
+        margin-bottom: 25px;
+    }
+
+    .ab-right ul {
+        padding-top: 10px;
+    }
+
+    .ab-right li {
+        font-size: 15px;
+    }
+
+    .ab-right li img {
+        width: 20px;
+        margin-right: 10px;
+    }
+
+    .list-srv .col-md-4 {
+        margin-bottom: 15px;
+    }
+
+    .box-service .container-fluid {
+        padding: 0 15px;
+    }
+
+    .item-srv .avarta img {
+        height: auto;
+        max-height: 180px;
+    }
+
+    .desc-abs {
+        padding: 15px;
+        font-size: 12px;
+    }
+
+    .desc-abs h3 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .list-step {
+        padding: 40px 15px;
+    }
+
+    .item-step h4 {
+        font-size: 16px;
+    }
+
+    .item-step p {
+        font-size: 13px;
+    }
+
+    .item-prj .avarta img {
+        max-height: 50vh;
+        object-fit: cover;
+    }
+    .item-srv .avarta span {
+        font-size: 15px;
+    }
+    .item-prj .info a {
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .box-project .slick-arrow.next {
+        right: 10px;
+    }
+
+    .box-project .slick-arrow.prev {
+        left: 10px;
+    }
+
+    .box-project .slick-arrow {
+        height: 30px;
+        width: 30px;
+    }
+    .maps {
+        margin-top: 30px;
+    }
+
+    .maps iframe {
+        height: 250px;
+    }
+    .side-bar {
+        display: none;
+    }
+    #breadcrumbs .avarta img {
+        height: 200px;
+    }
+
+    .info-bread h2 {
+        font-size: 22px;
+    }
+
+    .info-bread ul {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .info-bread {
+        padding: 20px 0;
+    }
+
+    .pagination a {
+        width: 30px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .pagination li {
+        margin-right:  0 !important;
+    }
+
+    .pagination ul {
+        text-align: center !important;
+    }
+
+    .pagination {
+        padding-top: 15px;
+    }
+    .title-other {
+        font-size: 20px;
+    }
+
+    .list-news.pt-60 {
+        padding-top: 30px;
+    }
+    .btn-menu a {
+        font-size: 15px;
+    }
+
+    .menu-mobile a {
+        color: #fff;
+    }
+    nav#menu {
+        display: none;
+        z-index: 1002;
+    }
+
+    nav#menu.mm-menu_opened {
+        display: block;
+    }
+    .slide-banner .slick-arrow {
+        width: 35px;
+        height: 35px;
+    }
+
+    .slide-banner .slick-arrow.next {
+        right: 10px;
+    }
+
+    .slide-banner .slick-arrow.prev {
+        left: 10px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    .item-prj .avarta img {
+        max-height: 100vh;
+        height: 100vh;
+    }
+    .list-news .row {
+        margin: 0 -5px;
+    }
+
+    .list-news .col-md-4, .list-news .col-md-3 {
+        padding: 0 5px;
+    }
+    .item-project {
+        flex-wrap: inherit;
+    }
+
+    .item-project .info {
+        padding: 15px;
+    }
+
+    .item-project .type {
+        font-size: 12px;
+    }
+
+    .item-project .info h2 {
+        font-size: 22px;
+    }
+
+
+}
+
+@media (max-width: 575px) {
+    .item-news {
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .item-news .avarta {
+        margin-bottom: 0;
+        margin-right: 10px;
+        flex: 0 0 40%;
+    }
+
+    .item-news .info .desc {
+        display: none;
+    }
+
+    .item-news .readmore {
+        display: none;
+    }
+
+    .item-news .info h3 a {
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .item-project {
+        display: block;
+    }
+
+    .item-project .type span br {
+        display: none;
+    }
+
+    .item-project .type span {
+        padding-bottom: 5px;
+    }
+
+    .item-project .info {
+        padding: 15px 0;
+    }
+
+    .item-project .info h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .item-project .type {
+        margin-bottom: 10px;
+    }
+}
